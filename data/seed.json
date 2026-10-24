@@ -1,0 +1,35 @@
+{
+  "notes": [
+    {
+      "id": "note-welcome",
+      "workspace_id": "team-alpha",
+      "title": "A little clarity goes a long way",
+      "body": "## Welcome to your team’s thinking space\n\nCapture the context behind a decision, keep the next step close, and get back to building.\n\n- Write notes in **Markdown**\n- Give every action an owner\n- Export just the work you need\n\nSmall notes. Clear next steps.",
+      "createdAt": "2026-10-20T09:00:00.000Z"
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "item-1",
+      "workspace_id": "team-alpha",
+      "title": "Fix login, session, and \"auth\" timeout",
+      "owner": "Alex Morgan",
+      "status": "In progress"
+    },
+    {
+      "id": "item-2",
+      "workspace_id": "team-alpha",
+      "title": "Update Q4 roadmap,\nmetrics, and goals",
+      "owner": "Sam Rivera",
+      "status": "To do"
+    },
+    {
+      "id": "item-3",
+      "workspace_id": "restricted-org",
+      "title": "Secret M&A target list",
+      "owner": "Restricted owner",
+      "status": "To do"
+    }
+  ],
+  "feedback": []
+}

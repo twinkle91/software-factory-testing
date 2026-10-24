@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+storybook-static/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+data/db.json
+data/*.tmp

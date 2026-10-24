@@ -1,0 +1,23 @@
+{
+  "app_name": "factory-demo-app",
+  "start_command": "npm run build && npm run start",
+  "health_check_path": "/api/health",
+  "build_id_path": "/api/build-id",
+  "static_checks": ["npm run check", "npm run lint", "npm run test"],
+  "required_checks": ["check", "lint", "test", "runtime-verify"],
+  "protected_paths": [
+    "MISSION.md",
+    "AGENTS.md",
+    "architecture.md",
+    "conventions.md",
+    "design.md",
+    "quality.md",
+    "package.json",
+    "package-lock.json",
+    "vitest.config.ts",
+    "biome.json",
+    "harness/**",
+    ".factory/**",
+    ".storybook/**"
+  ]
+}
